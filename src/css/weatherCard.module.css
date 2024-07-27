@@ -1,0 +1,136 @@
+
+.cardContainer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 4rem;
+    max-height: 60%;
+    overflow: scroll;
+}
+
+.weatherCard{
+
+    /* background-color: rgba(255, 255, 255, 0.712); */
+    font-size: 1rem;
+    min-width: 25rem;
+    width: 25rem;
+    /* max-height: 50rem; */
+    margin: 2rem;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    border-radius: 10px;
+    /* box-shadow:  -5px -5px 10px #4a6466,
+             -5px -5px 10px #ffffff; */
+    box-shadow:  -1px -1px 10px #4a6466,
+             -1px 1px 10px #ffffff;
+    background: rgba(255, 255, 255, 0.267);
+    /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(8px);
+    /* border: 1px solid rgba(255, 255, 255, 1); */
+
+}
+
+.weatherCard:hover{
+    transform: scale(1.05)
+}
+
+.weatherCard h1{
+    font-size: 3rem;
+    color: rgb(57, 107, 174);
+    font-weight: 500;
+}
+
+/* .weatherCard img{
+    float: right;
+} */
+
+.weatherDescContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.descDiv{
+    /* display: flex; */
+    background-color: rgba(255, 255, 255, 0.596);
+    border-radius: 8px;
+    margin: 0;
+}
+
+.weather{
+    display: flex;
+    flex-direction: row;
+    color: rgba(0, 38, 88, 0.692);
+    font-size: 2.6rem;
+    align-items: center;
+
+}
+
+.weather p{
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.weatherDesc {
+    padding: 1rem;
+    font-size: 1.8rem;
+    /* color: rgb(123, 152, 178); */
+    color: rgb(56, 96, 148);
+    /* color: rgb(74, 98, 128); */
+    
+}
+
+.weatherContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.temperature{
+    font-size: 5rem;
+    color: rgb(57, 107, 174);
+    display: block;
+}
+
+.icon{
+    height:1.8rem;
+}
+
+.wIcon{
+    height: 10rem;
+}
+
+.tempContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.deleteContainer{
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0 0 0;
+}
+
+.deleteButton{
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 4px;
+    border: none;
+    font-size: 1.8rem;
+    color:  rgb(5, 79, 175);
+}
+
+.maxMinTemp{
+    display: flex;
+ 
+    
+}
+
+.arrow{
+    height: 2rem;
+
+}
